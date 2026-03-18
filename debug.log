@@ -1675,3 +1675,204 @@ INFO 2026-03-18 19:33:32,074 autoreload /Users/adityanalkande/Desktop/Django/aut
 INFO 2026-03-18 19:33:32,516 autoreload Watching for file changes with StatReloader
 INFO 2026-03-18 19:33:37,696 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
 INFO 2026-03-18 19:33:38,085 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 19:35:24,032 log "GET /timetable_generation/ HTTP/1.1" 200 54032
+INFO 2026-03-18 20:58:52,687 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-18 20:58:57,044 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1346, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1323, in verify_timetable
+    teacher_exact_time.add(teacher_time_key)
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'collections.defaultdict' object has no attribute 'add'
+ERROR 2026-03-18 20:58:57,046 log "GET /timetable_generation/ HTTP/1.1" 500 102423
+INFO 2026-03-18 21:00:13,820 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:14,607 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:16,769 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:17,117 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:22,263 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:22,582 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:27,740 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:28,171 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:38,376 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:38,850 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:45,120 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:45,751 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:47,866 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:48,242 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:50,395 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:50,705 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:00:52,813 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:00:53,141 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:01:10,487 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:01:11,063 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:01:14,210 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:01:14,583 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:04:23,017 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:04:23,800 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-18 21:04:27,635 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:04:27,637 log "GET /timetable_generation/ HTTP/1.1" 500 114256
+ERROR 2026-03-18 21:04:30,364 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:04:30,365 log "GET /timetable_generation/ HTTP/1.1" 500 114305
+ERROR 2026-03-18 21:04:32,325 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:04:32,326 log "GET /timetable_generation/ HTTP/1.1" 500 114335
+ERROR 2026-03-18 21:04:42,702 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:04:42,704 log "GET /timetable_generation/ HTTP/1.1" 500 114234
+ERROR 2026-03-18 21:04:47,488 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:04:47,489 log "GET /timetable_generation/ HTTP/1.1" 500 114062
+INFO 2026-03-18 21:05:03,878 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-18 21:05:07,415 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:05:07,417 log "GET /timetable_generation/ HTTP/1.1" 500 114016
+ERROR 2026-03-18 21:05:10,190 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1381, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1321, in verify_timetable
+    conflicts.append(f"C7 VIOLATION: {div.division_name} has lecture {sc.course.course_number} during lab at {day}")
+                                      ^^^
+UnboundLocalError: cannot access local variable 'div' where it is not associated with a value
+ERROR 2026-03-18 21:05:10,191 log "GET /timetable_generation/ HTTP/1.1" 500 114190
+INFO 2026-03-18 21:10:31,041 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:10:32,073 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:10:35,225 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:10:35,553 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:10:36,701 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:10:37,007 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:10:38,149 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:10:38,467 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:10:46,493 log "GET /timetable_generation/ HTTP/1.1" 200 54038
+INFO 2026-03-18 21:11:39,491 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:11:40,242 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:11:52,480 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:11:52,895 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:11:57,178 log "GET /timetable_generation/ HTTP/1.1" 200 54080
+INFO 2026-03-18 21:11:59,408 log "GET /timetable_generation/ HTTP/1.1" 200 54053
+INFO 2026-03-18 21:12:11,886 log "GET /timetable_generation/ HTTP/1.1" 200 54074
+INFO 2026-03-18 21:16:14,670 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:16:15,677 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:16:18,827 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:16:19,359 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:16:22,469 log "GET /timetable_generation/ HTTP/1.1" 200 54049
+INFO 2026-03-18 21:17:34,629 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:17:35,584 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:17:37,252 log "GET /timetable_generation/ HTTP/1.1" 200 54097
+INFO 2026-03-18 21:17:42,751 log "GET /timetable_generation/ HTTP/1.1" 200 54037
+INFO 2026-03-18 21:17:49,973 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:17:50,666 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:17:54,617 log "GET /timetable_generation/ HTTP/1.1" 200 54041
+INFO 2026-03-18 21:18:50,551 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:18:51,417 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:18:58,741 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:18:59,397 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:16,747 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:17,603 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:19,872 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:20,270 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:23,441 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:23,750 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:37,007 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:37,574 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:42,780 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:43,335 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:49,541 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:50,040 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 21:19:55,386 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 21:19:55,774 autoreload Watching for file changes with StatReloader

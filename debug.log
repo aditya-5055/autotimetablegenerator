@@ -1664,3 +1664,14 @@ INFO 2026-03-17 16:41:12,430 autoreload /Users/adityanalkande/Desktop/Django/aut
 INFO 2026-03-17 16:41:12,917 autoreload Watching for file changes with StatReloader
 INFO 2026-03-17 16:41:30,194 log "GET /timetable_generation/ HTTP/1.1" 200 54055
 INFO 2026-03-17 16:48:41,916 log "GET /timetable_generation/ HTTP/1.1" 200 54062
+INFO 2026-03-18 19:30:52,156 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 19:30:57,257 log "GET /timetable_generation/ HTTP/1.1" 200 54046
+WARNING 2026-03-18 19:30:57,448 log Not Found: /favicon.ico
+WARNING 2026-03-18 19:30:57,448 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-18 19:33:04,893 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 19:33:05,617 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 19:33:20,783 log "GET /timetable_generation/ HTTP/1.1" 200 54059
+INFO 2026-03-18 19:33:32,074 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 19:33:32,516 autoreload Watching for file changes with StatReloader
+INFO 2026-03-18 19:33:37,696 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-18 19:33:38,085 autoreload Watching for file changes with StatReloader

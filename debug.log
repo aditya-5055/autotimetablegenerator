@@ -1,0 +1,1666 @@
+INFO 2026-02-12 17:24:54,332 autoreload Watching for file changes with StatReloader
+INFO 2026-02-13 18:03:22,923 autoreload Watching for file changes with StatReloader
+INFO 2026-02-13 18:03:28,556 log "GET / HTTP/1.1" 200 12068
+INFO 2026-02-13 18:03:28,826 log "GET / HTTP/1.1" 200 12068
+WARNING 2026-02-13 18:03:28,954 log Not Found: /favicon.ico
+WARNING 2026-02-13 18:03:28,954 log "GET /favicon.ico HTTP/1.1" 404 2218
+INFO 2026-02-13 18:04:00,023 autoreload Watching for file changes with StatReloader
+INFO 2026-02-13 18:04:03,115 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:04:03,140 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-13 18:04:03,183 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-02-13 18:04:03,183 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-02-13 18:04:03,184 log "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-02-13 18:04:03,185 log "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-02-13 18:04:03,185 log "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-02-13 18:04:03,186 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-02-13 18:04:03,190 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-02-13 18:04:06,454 log "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4253
+INFO 2026-02-13 18:05:20,023 autoreload Watching for file changes with StatReloader
+INFO 2026-02-13 18:05:24,927 log "GET / HTTP/1.1" 200 12068
+INFO 2026-02-13 18:05:25,109 log "GET / HTTP/1.1" 200 12068
+INFO 2026-02-13 18:05:29,038 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-13 18:05:31,423 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:05:31,441 log "GET /admin/ HTTP/1.1" 200 11251
+INFO 2026-02-13 18:05:31,481 log "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-02-13 18:05:31,485 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-02-13 18:05:31,486 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-02-13 18:06:55,163 log "GET /admin/ HTTP/1.1" 200 11251
+INFO 2026-02-13 18:07:34,540 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:07:34,575 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-13 18:07:35,580 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-02-13 18:07:35,594 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-02-13 18:07:35,595 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-02-13 18:07:35,596 log "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-02-13 18:07:35,597 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-02-13 18:07:35,597 log "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-02-13 18:07:35,598 log "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-02-13 18:07:40,940 log "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4253
+INFO 2026-02-13 18:07:50,122 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:07:50,143 log "GET /admin/ HTTP/1.1" 200 11251
+INFO 2026-02-13 18:07:50,154 log "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-02-13 18:07:50,175 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-02-13 18:07:50,176 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-02-13 18:07:53,256 log "GET /admin/ttgen/department/ HTTP/1.1" 200 11884
+INFO 2026-02-13 18:07:53,580 log "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-02-13 18:07:53,582 log "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-02-13 18:07:53,583 log "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-02-13 18:07:53,586 log "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-02-13 18:07:53,588 log "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-02-13 18:07:53,589 log "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-02-13 18:07:53,589 log "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-02-13 18:07:53,590 log "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-02-13 18:07:53,593 log "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-02-13 18:07:53,600 log "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-02-13 18:07:53,600 log "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-02-13 18:07:53,601 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:07:53,655 log "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-02-13 18:07:58,798 log "GET /admin/ttgen/department/add/ HTTP/1.1" 200 12005
+INFO 2026-02-13 18:07:59,104 log "GET /static/admin/css/forms.css HTTP/1.1" 200 8817
+INFO 2026-02-13 18:07:59,106 log "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-02-13 18:07:59,107 log "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-02-13 18:07:59,110 log "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-02-13 18:07:59,112 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:11,462 log "POST /admin/ttgen/department/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:08:11,494 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13409
+INFO 2026-02-13 18:08:11,518 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:11,549 log "GET /static/admin/img/icon-info-dark.svg HTTP/1.1" 200 630
+INFO 2026-02-13 18:08:17,311 log "GET /admin/ttgen/division/ HTTP/1.1" 200 11866
+INFO 2026-02-13 18:08:17,616 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:28,632 log "GET /admin/ttgen/division/add/ HTTP/1.1" 200 14532
+INFO 2026-02-13 18:08:28,946 log "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-02-13 18:08:28,951 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:40,421 log "POST /admin/ttgen/division/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:08:40,439 log "GET /admin/ttgen/division/ HTTP/1.1" 200 13783
+INFO 2026-02-13 18:08:40,453 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:42,913 log "GET /admin/ttgen/division/add/ HTTP/1.1" 200 14532
+INFO 2026-02-13 18:08:42,927 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:49,515 log "POST /admin/ttgen/division/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:08:49,530 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14151
+INFO 2026-02-13 18:08:49,547 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:08:54,083 log "GET /admin/ttgen/division/add/ HTTP/1.1" 200 14532
+INFO 2026-02-13 18:08:54,099 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:00,112 log "POST /admin/ttgen/division/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:09:00,127 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14518
+INFO 2026-02-13 18:09:00,141 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:01,974 log "GET /admin/ttgen/division/add/ HTTP/1.1" 200 14532
+INFO 2026-02-13 18:09:01,987 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:06,774 log "POST /admin/ttgen/division/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:09:06,790 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14885
+INFO 2026-02-13 18:09:06,807 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:17,193 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:09:17,543 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:42,620 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:09:42,645 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 15134
+INFO 2026-02-13 18:09:42,668 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:42,705 log "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+INFO 2026-02-13 18:09:45,640 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:09:45,654 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:46,322 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:09:46,337 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:54,175 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:09:54,192 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 15472
+INFO 2026-02-13 18:09:54,207 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:09:57,043 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:09:57,058 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:05,043 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:10:05,060 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 15809
+INFO 2026-02-13 18:10:05,078 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:07,507 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:10:07,811 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:14,411 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:10:14,430 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 16146
+INFO 2026-02-13 18:10:14,445 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:21,839 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:10:21,854 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:27,831 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:10:27,848 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 16483
+INFO 2026-02-13 18:10:27,863 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:30,125 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:10:30,144 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:35,809 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:10:35,826 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 16820
+INFO 2026-02-13 18:10:35,840 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:39,209 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:10:39,226 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:10:45,534 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:10:45,555 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 17157
+INFO 2026-02-13 18:10:45,573 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:00,049 log "GET /admin/ttgen/batch/7/change/ HTTP/1.1" 200 14767
+INFO 2026-02-13 18:11:00,375 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:06,160 log "POST /admin/ttgen/batch/7/change/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:06,179 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 17159
+INFO 2026-02-13 18:11:06,195 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:11,172 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:11,189 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:18,144 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:18,162 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 17494
+INFO 2026-02-13 18:11:18,178 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:20,057 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:20,072 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:26,045 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:26,067 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 17831
+INFO 2026-02-13 18:11:26,087 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:27,924 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:27,944 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:32,242 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:32,260 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 18174
+INFO 2026-02-13 18:11:32,275 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:33,741 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:33,756 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:39,134 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:39,152 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 18513
+INFO 2026-02-13 18:11:39,168 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:40,600 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:40,615 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:45,153 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:45,173 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 18852
+INFO 2026-02-13 18:11:45,191 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:46,520 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:11:46,536 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:11:55,064 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:11:55,084 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 19191
+INFO 2026-02-13 18:11:55,101 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:01,389 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:12:01,406 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:09,840 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:12:09,860 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 19530
+INFO 2026-02-13 18:12:09,877 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:11,740 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:12:11,757 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:17,253 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:12:17,273 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 19869
+INFO 2026-02-13 18:12:17,295 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:18,807 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-13 18:12:18,825 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:12:23,981 log "POST /admin/ttgen/batch/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:12:24,000 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20208
+INFO 2026-02-13 18:12:24,018 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:20,885 log "GET /admin/ttgen/instructor/add/ HTTP/1.1" 200 12625
+INFO 2026-02-13 18:14:21,252 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:31,859 log "POST /admin/ttgen/instructor/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:14:31,899 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 13562
+INFO 2026-02-13 18:14:31,957 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:33,068 log "GET /admin/ttgen/instructor/add/ HTTP/1.1" 200 12625
+INFO 2026-02-13 18:14:33,092 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:49,343 log "POST /admin/ttgen/instructor/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:14:49,363 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 13886
+INFO 2026-02-13 18:14:49,394 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:51,056 log "GET /admin/ttgen/instructor/add/ HTTP/1.1" 200 12625
+INFO 2026-02-13 18:14:51,075 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:14:59,515 log "POST /admin/ttgen/instructor/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:14:59,546 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14202
+INFO 2026-02-13 18:14:59,577 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:05,551 log "GET /admin/ttgen/instructor/add/ HTTP/1.1" 200 12625
+INFO 2026-02-13 18:15:05,574 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:10,631 log "POST /admin/ttgen/instructor/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:15:10,651 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14522
+INFO 2026-02-13 18:15:11,005 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:13,418 log "GET /admin/ttgen/instructor/add/ HTTP/1.1" 200 12625
+INFO 2026-02-13 18:15:13,435 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:21,622 log "POST /admin/ttgen/instructor/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:15:21,640 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14838
+INFO 2026-02-13 18:15:21,660 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:27,427 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:15:27,740 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:42,666 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:15:42,686 log "GET /admin/ttgen/room/ HTTP/1.1" 200 15008
+INFO 2026-02-13 18:15:42,709 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:44,006 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:15:44,024 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:51,688 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:15:51,705 log "GET /admin/ttgen/room/ HTTP/1.1" 200 15349
+INFO 2026-02-13 18:15:51,726 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:15:54,111 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:15:54,130 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:07,285 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:16:07,312 log "GET /admin/ttgen/room/ HTTP/1.1" 200 15688
+INFO 2026-02-13 18:16:07,336 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:11,670 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:16:11,688 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:24,635 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:16:24,657 log "GET /admin/ttgen/room/ HTTP/1.1" 200 16020
+INFO 2026-02-13 18:16:24,680 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:29,400 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:16:29,428 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:43,544 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:16:43,561 log "GET /admin/ttgen/room/ HTTP/1.1" 200 16353
+INFO 2026-02-13 18:16:43,587 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:52,010 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:16:52,036 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:16:59,821 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:16:59,839 log "GET /admin/ttgen/room/ HTTP/1.1" 200 16686
+INFO 2026-02-13 18:16:59,858 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:00,805 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:17:00,826 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:08,508 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:17:08,526 log "GET /admin/ttgen/room/ HTTP/1.1" 200 17019
+INFO 2026-02-13 18:17:08,545 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:10,838 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:17:10,856 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:20,540 log "POST /admin/ttgen/room/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:17:20,558 log "GET /admin/ttgen/room/ HTTP/1.1" 200 17352
+INFO 2026-02-13 18:17:20,578 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:31,981 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:17:32,306 log "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-02-13 18:17:32,307 log "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 16428
+INFO 2026-02-13 18:17:32,309 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:17:32,352 log "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 2387
+INFO 2026-02-13 18:18:23,079 log "GET /admin/ttgen/instructor/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4985
+INFO 2026-02-13 18:18:23,506 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:18:37,191 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:18:37,209 log "GET /admin/ttgen/course/ HTTP/1.1" 200 14747
+INFO 2026-02-13 18:18:37,234 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:18:47,756 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:18:47,778 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:19:10,618 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:19:10,636 log "GET /admin/ttgen/course/ HTTP/1.1" 200 15162
+INFO 2026-02-13 18:19:10,662 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:19:12,387 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:19:12,410 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:19:35,755 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:19:35,776 log "GET /admin/ttgen/course/ HTTP/1.1" 200 15596
+INFO 2026-02-13 18:19:36,119 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:19:44,725 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:19:44,744 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:20:13,582 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:20:13,601 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16029
+INFO 2026-02-13 18:20:13,950 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:20:30,814 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:20:30,848 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:20:57,421 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:20:57,439 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16441
+INFO 2026-02-13 18:20:57,485 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:20:58,905 log "GET /admin/ttgen/course/add/ HTTP/1.1" 200 15967
+INFO 2026-02-13 18:20:58,926 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:21:22,393 log "POST /admin/ttgen/course/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:21:22,415 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16854
+INFO 2026-02-13 18:21:22,457 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:22:24,021 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:22:24,496 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:22:44,568 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:22:44,589 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 15777
+INFO 2026-02-13 18:22:44,626 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:22:53,057 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:22:53,078 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:22:57,531 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:22:57,551 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:14,298 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:23:14,319 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 16174
+INFO 2026-02-13 18:23:14,348 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:16,602 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:23:16,622 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:20,839 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:23:20,861 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:24,070 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 15939
+INFO 2026-02-13 18:23:24,090 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:27,850 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:23:27,873 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:41,116 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:23:41,135 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 16572
+INFO 2026-02-13 18:23:41,158 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:46,169 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:23:46,189 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:23:59,384 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:23:59,407 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 16966
+INFO 2026-02-13 18:23:59,436 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:00,252 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:24:00,272 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:13,156 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:24:13,183 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 17358
+INFO 2026-02-13 18:24:13,217 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:14,218 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:24:14,245 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:28,814 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:24:28,836 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 17751
+INFO 2026-02-13 18:24:28,864 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:29,693 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:24:29,714 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:45,912 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:24:45,932 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 18147
+INFO 2026-02-13 18:24:46,292 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:47,015 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:24:47,324 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:24:58,645 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:24:58,668 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 18545
+INFO 2026-02-13 18:24:58,694 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:25:03,938 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:25:03,960 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:25:15,240 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:25:15,259 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 18945
+INFO 2026-02-13 18:25:15,573 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:25:16,328 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:25:16,351 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:25:34,294 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:25:34,319 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 19344
+INFO 2026-02-13 18:25:34,367 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:25:58,271 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:25:58,294 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:26:11,140 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:26:11,166 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 19738
+INFO 2026-02-13 18:26:11,199 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:26:12,714 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:26:12,736 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:26:22,724 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:26:22,748 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 20133
+INFO 2026-02-13 18:26:22,776 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:26:54,647 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:26:54,704 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:03,127 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:27:03,151 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 20534
+INFO 2026-02-13 18:27:03,180 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:06,932 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:27:06,967 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:16,466 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:27:16,528 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 20936
+INFO 2026-02-13 18:27:16,554 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:21,573 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:27:21,599 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:33,057 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:27:33,082 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 21340
+INFO 2026-02-13 18:27:33,423 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:33,961 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:27:33,987 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:44,579 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:27:44,602 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 21740
+INFO 2026-02-13 18:27:44,645 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:48,037 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:27:48,067 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:57,108 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:27:57,143 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 22138
+INFO 2026-02-13 18:27:57,180 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:27:58,389 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:27:58,411 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:09,501 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:28:09,527 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 22537
+INFO 2026-02-13 18:28:09,553 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:29,395 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:28:29,451 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:39,969 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:28:39,995 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 22933
+INFO 2026-02-13 18:28:40,031 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:42,088 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:28:42,110 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:51,186 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:28:51,213 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 23333
+INFO 2026-02-13 18:28:51,240 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:28:52,301 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:28:52,329 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:00,713 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:29:00,737 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 23735
+INFO 2026-02-13 18:29:00,763 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:01,617 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:29:01,640 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:15,454 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:29:15,480 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 24133
+INFO 2026-02-13 18:29:15,518 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:38,720 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:29:38,778 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:49,598 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:29:49,622 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 24529
+INFO 2026-02-13 18:29:49,975 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:29:50,505 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:29:50,527 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:04,108 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:30:04,140 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 24926
+INFO 2026-02-13 18:30:04,172 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:08,074 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:30:08,101 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:19,978 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:30:20,001 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 25317
+INFO 2026-02-13 18:30:20,365 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:20,873 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:30:20,900 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:29,932 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:30:29,954 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 25713
+INFO 2026-02-13 18:30:29,980 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:32,990 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:30:33,016 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:38,767 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:30:38,792 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 26111
+INFO 2026-02-13 18:30:38,819 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:42,639 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:30:42,668 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:50,958 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:30:50,980 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 26505
+INFO 2026-02-13 18:30:51,006 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:30:53,941 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:30:53,970 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:03,838 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:31:03,867 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 26897
+INFO 2026-02-13 18:31:03,896 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:07,709 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:31:07,738 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:14,725 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:31:14,748 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 27290
+INFO 2026-02-13 18:31:14,772 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:25,475 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:31:25,527 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:36,470 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:31:36,498 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 27686
+INFO 2026-02-13 18:31:36,550 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:37,768 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:31:37,796 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:52,330 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:31:52,357 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 28081
+INFO 2026-02-13 18:31:52,402 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:31:56,737 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:31:56,764 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:09,392 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:32:09,421 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 28473
+INFO 2026-02-13 18:32:09,472 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:10,533 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:32:10,565 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:25,931 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:32:25,957 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 28872
+INFO 2026-02-13 18:32:25,993 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:26,884 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:32:26,912 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:39,765 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:32:39,791 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 29269
+INFO 2026-02-13 18:32:40,130 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:32:55,497 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:32:55,524 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:06,198 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:33:06,225 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 29663
+INFO 2026-02-13 18:33:06,255 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:10,692 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:33:10,722 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:20,658 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:33:20,682 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 30061
+INFO 2026-02-13 18:33:20,712 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:24,168 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:33:24,196 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:38,890 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:33:38,915 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 30464
+INFO 2026-02-13 18:33:38,940 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:42,571 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:33:42,598 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:53,874 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:33:53,899 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 30862
+INFO 2026-02-13 18:33:53,929 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:33:55,034 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:33:55,060 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:09,510 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:34:09,535 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 31261
+INFO 2026-02-13 18:34:09,558 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:10,456 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:34:10,481 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:23,881 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:34:23,908 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 31660
+INFO 2026-02-13 18:34:23,951 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:28,321 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:34:28,350 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:36,772 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:34:36,796 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 32056
+INFO 2026-02-13 18:34:36,820 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:42,173 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:34:42,213 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:51,588 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:34:51,613 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 32450
+INFO 2026-02-13 18:34:51,944 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:34:56,538 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:34:56,565 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:05,407 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:35:05,432 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 32845
+INFO 2026-02-13 18:35:05,459 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:09,885 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-13 18:35:09,914 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:18,793 log "POST /admin/ttgen/meetingtime/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:35:18,819 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33237
+INFO 2026-02-13 18:35:18,846 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:31,509 log "GET /admin/ttgen/room/add/ HTTP/1.1" 200 13383
+INFO 2026-02-13 18:35:31,836 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:33,168 log "GET /admin/ttgen/room/ HTTP/1.1" 200 17155
+INFO 2026-02-13 18:35:33,193 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:34,612 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33003
+INFO 2026-02-13 18:35:34,642 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:35,353 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14612
+INFO 2026-02-13 18:35:35,758 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:37,855 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14679
+INFO 2026-02-13 18:35:38,171 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:38,899 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13184
+INFO 2026-02-13 18:35:39,214 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:40,972 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16637
+INFO 2026-02-13 18:35:41,292 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:42,019 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20010
+INFO 2026-02-13 18:35:42,337 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:45,923 log "GET /admin/ttgen/section/ HTTP/1.1" 200 13540
+INFO 2026-02-13 18:35:46,244 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:48,563 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-13 18:35:48,898 log "GET /static/admin/js/vendor/select2/i18n/en.js HTTP/1.1" 200 844
+INFO 2026-02-13 18:35:48,898 log "GET /static/admin/css/autocomplete.css HTTP/1.1" 200 9185
+INFO 2026-02-13 18:35:48,899 log "GET /static/admin/js/autocomplete.js HTTP/1.1" 200 1060
+INFO 2026-02-13 18:35:48,899 log "GET /static/admin/css/vendor/select2/select2.css HTTP/1.1" 200 17358
+INFO 2026-02-13 18:35:48,899 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:35:48,900 log "GET /static/admin/js/vendor/select2/select2.full.js HTTP/1.1" 200 173566
+INFO 2026-02-13 18:36:10,699 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-13 18:36:24,633 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:36:24,653 log "GET /admin/ttgen/section/ HTTP/1.1" 200 16481
+INFO 2026-02-13 18:36:24,687 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:36:26,793 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-13 18:36:26,820 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:36:48,980 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-13 18:36:55,127 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:36:55,146 log "GET /admin/ttgen/section/ HTTP/1.1" 200 17075
+INFO 2026-02-13 18:36:55,196 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:37:00,750 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-13 18:37:00,786 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:37:34,057 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-13 18:37:57,778 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:37:57,822 log "GET /admin/ttgen/section/ HTTP/1.1" 200 17682
+INFO 2026-02-13 18:37:57,864 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:38:02,740 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-13 18:38:02,767 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-13 18:38:18,942 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-13 18:38:25,149 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-13 18:38:25,174 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18287
+INFO 2026-02-13 18:38:25,212 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2026-02-13 18:38:49,570 log Not Found: /timetable_generation/
+WARNING 2026-02-13 18:38:49,571 log "GET /timetable_generation/ HTTP/1.1" 404 2248
+INFO 2026-02-15 15:15:10,796 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 15:15:16,682 log "GET / HTTP/1.1" 200 12068
+WARNING 2026-02-15 15:15:18,182 log Not Found: /favicon.ico
+WARNING 2026-02-15 15:15:18,183 log "GET /favicon.ico HTTP/1.1" 404 2218
+INFO 2026-02-15 15:15:20,587 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-15 15:15:20,601 log "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,602 log "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,602 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,605 log "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,605 log "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,605 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:20,615 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:24,176 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:15:24,195 log "GET /admin/ HTTP/1.1" 200 14954
+INFO 2026-02-15 15:15:24,208 log "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:24,232 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-02-15 15:15:24,233 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+WARNING 2026-02-15 15:15:43,370 log Not Found: /timetable_generation/
+WARNING 2026-02-15 15:15:43,371 log "GET /timetable_generation/ HTTP/1.1" 404 2248
+WARNING 2026-02-15 15:16:33,208 log Not Found: /timetable_generation/
+WARNING 2026-02-15 15:16:33,209 log "GET /timetable_generation/ HTTP/1.1" 404 2248
+INFO 2026-02-15 15:19:37,053 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/timetable_config/urls.py changed, reloading.
+INFO 2026-02-15 15:19:37,552 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 15:20:04,956 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/timetable_config/urls.py changed, reloading.
+INFO 2026-02-15 15:20:05,345 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 15:20:08,915 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 259, in timetable
+    return render(request, 'gentimetable.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gentimetable.html
+ERROR 2026-02-15 15:20:08,917 log "GET /timetable_generation/ HTTP/1.1" 500 91118
+INFO 2026-02-15 15:24:32,532 log "GET /timetable_generation/ HTTP/1.1" 200 11553
+INFO 2026-02-15 15:27:35,270 log "GET /timetable_generation/ HTTP/1.1" 200 11543
+WARNING 2026-02-15 15:27:47,107 log Not Found: /timetable_generation/admin
+WARNING 2026-02-15 15:27:47,109 log "GET /timetable_generation/admin HTTP/1.1" 404 10880
+INFO 2026-02-15 15:28:00,391 log "GET /admin HTTP/1.1" 301 0
+INFO 2026-02-15 15:28:00,412 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:28:00,433 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-15 15:28:00,470 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-02-15 15:28:00,470 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-02-15 15:28:00,470 log "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-02-15 15:28:00,471 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-02-15 15:28:00,471 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-02-15 15:28:00,472 log "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-02-15 15:28:00,472 log "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-02-15 15:28:08,113 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:28:08,139 log "GET /admin/ HTTP/1.1" 200 14954
+INFO 2026-02-15 15:28:08,149 log "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-02-15 15:28:08,168 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-02-15 15:28:08,169 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-02-15 15:28:20,509 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:28:20,941 log "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-02-15 15:28:20,941 log "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-02-15 15:28:20,942 log "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-02-15 15:28:20,943 log "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-02-15 15:28:20,946 log "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-02-15 15:28:20,948 log "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-02-15 15:28:20,952 log "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-02-15 15:28:20,953 log "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-02-15 15:28:20,955 log "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-02-15 15:28:20,955 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:28:20,955 log "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-02-15 15:28:20,957 log "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-02-15 15:28:21,040 log "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-02-15 15:28:21,041 log "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-02-15 15:28:40,148 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16637
+INFO 2026-02-15 15:28:40,458 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:28:50,901 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13184
+INFO 2026-02-15 15:28:51,220 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:28:53,183 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14679
+INFO 2026-02-15 15:28:53,491 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:28:57,012 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20010
+INFO 2026-02-15 15:28:57,317 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:28:57,329 log "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+INFO 2026-02-15 15:29:04,347 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16637
+INFO 2026-02-15 15:29:04,359 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:27,775 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:29:27,788 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:31,125 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:29:31,445 log "GET /static/admin/css/forms.css HTTP/1.1" 200 8817
+INFO 2026-02-15 15:29:31,449 log "GET /static/admin/css/vendor/select2/select2.css HTTP/1.1" 200 17358
+INFO 2026-02-15 15:29:31,453 log "GET /static/admin/js/autocomplete.js HTTP/1.1" 200 1060
+INFO 2026-02-15 15:29:31,455 log "GET /static/admin/js/vendor/select2/i18n/en.js HTTP/1.1" 200 844
+INFO 2026-02-15 15:29:31,455 log "GET /static/admin/css/autocomplete.css HTTP/1.1" 200 9185
+INFO 2026-02-15 15:29:31,456 log "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-02-15 15:29:31,457 log "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-02-15 15:29:31,457 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:31,458 log "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-02-15 15:29:31,458 log "GET /static/admin/js/vendor/select2/select2.full.js HTTP/1.1" 200 173566
+INFO 2026-02-15 15:29:39,374 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:29:39,387 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:49,727 log "GET /admin/ttgen/section/?o=6 HTTP/1.1" 200 18605
+INFO 2026-02-15 15:29:50,065 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:54,531 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:29:54,553 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:29:57,005 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=meeting_time HTTP/1.1" 200 1082
+INFO 2026-02-15 15:29:59,701 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=room HTTP/1.1" 200 279
+INFO 2026-02-15 15:30:00,907 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=instructor HTTP/1.1" 200 273
+INFO 2026-02-15 15:30:05,504 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:30:05,521 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:30:08,058 log "GET /admin/ttgen/section/MATH-DIVA/change/ HTTP/1.1" 200 27158
+INFO 2026-02-15 15:30:08,379 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:31:52,181 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:31:52,228 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:31:59,988 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:32:00,003 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:32:07,100 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18073
+INFO 2026-02-15 15:32:07,113 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:32:46,719 log "GET /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 200 27135
+INFO 2026-02-15 15:32:47,068 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:32:48,598 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:32:55,141 log "POST /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:32:55,161 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18294
+INFO 2026-02-15 15:32:55,174 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:32:55,188 log "GET /static/admin/img/icon-info-dark.svg HTTP/1.1" 200 630
+INFO 2026-02-15 15:33:08,327 log "GET /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 200 27142
+INFO 2026-02-15 15:33:08,657 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:33:10,405 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:33:19,222 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:33:25,610 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18080
+INFO 2026-02-15 15:33:25,945 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:33:28,470 log "GET /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 200 27142
+INFO 2026-02-15 15:33:28,484 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:33:43,028 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:33:48,591 log "POST /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:33:48,611 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18290
+INFO 2026-02-15 15:33:48,624 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:34:03,141 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:34:03,159 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:04,115 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18076
+INFO 2026-02-15 15:35:04,147 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:05,770 log "GET /admin/ttgen/section/MATH-DIVA/change/ HTTP/1.1" 200 27158
+INFO 2026-02-15 15:35:05,786 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:16,125 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18076
+INFO 2026-02-15 15:35:16,140 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:19,133 log "GET /admin/ttgen/section/DS-DIVA/change/ HTTP/1.1" 200 27138
+INFO 2026-02-15 15:35:19,149 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:24,248 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18076
+INFO 2026-02-15 15:35:24,263 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:31,376 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:35:31,709 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:44,929 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:35:49,410 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:35:49,432 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18904
+INFO 2026-02-15 15:35:49,447 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:35:57,875 log "GET /admin/ttgen/section/DSLAB-A1/change/ HTTP/1.1" 200 27148
+INFO 2026-02-15 15:35:58,199 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:36:09,238 log "GET /admin/ttgen/section/ HTTP/1.1" 200 18688
+INFO 2026-02-15 15:36:09,252 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:36:10,603 log "GET /admin/ttgen/section/DSLAB-A2/change/ HTTP/1.1" 200 27148
+INFO 2026-02-15 15:36:10,921 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:36:21,205 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:36:21,225 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:36:31,773 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:36:37,257 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:36:37,280 log "GET /admin/ttgen/section/ HTTP/1.1" 200 19507
+INFO 2026-02-15 15:36:37,298 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:36:38,604 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:36:38,618 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:13,328 log "GET /admin/ttgen/section/ HTTP/1.1" 200 19293
+INFO 2026-02-15 15:37:13,345 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:18,377 log "GET /admin/ttgen/section/DSLAB-A3/change/ HTTP/1.1" 200 27148
+INFO 2026-02-15 15:37:18,710 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:22,805 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:37:22,819 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:33,961 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:37:37,595 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:37:37,619 log "GET /admin/ttgen/section/ HTTP/1.1" 200 20112
+INFO 2026-02-15 15:37:37,638 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:48,427 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:37:48,756 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:37:58,335 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:38:05,035 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:38:05,057 log "GET /admin/ttgen/section/ HTTP/1.1" 200 20710
+INFO 2026-02-15 15:38:05,072 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:38:06,366 log "GET /admin/ttgen/section/add/ HTTP/1.1" 200 26825
+INFO 2026-02-15 15:38:06,381 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:38:21,968 log "GET /admin/autocomplete/?app_label=ttgen&model_name=section&field_name=course HTTP/1.1" 200 352
+INFO 2026-02-15 15:38:24,889 log "POST /admin/ttgen/section/add/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:38:24,913 log "GET /admin/ttgen/section/ HTTP/1.1" 200 21308
+INFO 2026-02-15 15:38:25,257 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:38:35,388 log "GET /timetable_generation/ HTTP/1.1" 200 18928
+INFO 2026-02-15 15:38:59,540 log "GET /timetable_generation/ HTTP/1.1" 200 18916
+INFO 2026-02-15 15:42:45,206 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33003
+INFO 2026-02-15 15:42:45,254 log "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-02-15 15:42:45,254 log "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-02-15 15:42:45,256 log "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-02-15 15:42:45,259 log "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-02-15 15:42:45,262 log "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-02-15 15:42:45,263 log "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-02-15 15:42:45,265 log "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-02-15 15:42:45,266 log "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-02-15 15:42:45,270 log "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-02-15 15:42:45,270 log "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-02-15 15:42:45,271 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:42:45,281 log "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-02-15 15:42:45,310 log "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-02-15 15:42:45,311 log "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-02-15 15:42:45,313 log "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+INFO 2026-02-15 15:43:03,170 log "POST /admin/ttgen/meetingtime/ HTTP/1.1" 302 0
+INFO 2026-02-15 15:43:03,207 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33202
+INFO 2026-02-15 15:43:03,232 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:43:03,246 log "GET /static/admin/img/icon-info-dark.svg HTTP/1.1" 200 630
+INFO 2026-02-15 15:43:12,998 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-15 15:43:13,020 log "GET /static/admin/css/forms.css HTTP/1.1" 200 8817
+INFO 2026-02-15 15:43:13,021 log "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-02-15 15:43:13,023 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:43:13,028 log "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-02-15 15:43:13,028 log "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-02-15 15:43:22,752 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33003
+INFO 2026-02-15 15:44:46,158 log "GET /admin/ttgen/meetingtime/add/ HTTP/1.1" 200 14241
+INFO 2026-02-15 15:44:46,663 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 15:56:59,697 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 15:57:00,253 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 15:57:09,444 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 15:57:09,842 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 15:59:55,676 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 15:59:56,579 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 16:01:00,442 log "GET /timetable_generation/ HTTP/1.1" 200 18913
+INFO 2026-02-15 16:01:04,832 log "GET /timetable_generation/ HTTP/1.1" 200 18921
+INFO 2026-02-15 16:01:15,766 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20010
+INFO 2026-02-15 16:01:15,793 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:01:18,022 log "GET /admin/auth/user/ HTTP/1.1" 200 15495
+INFO 2026-02-15 16:01:18,045 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:01:18,049 log "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-02-15 16:01:19,031 log "GET /admin/auth/group/ HTTP/1.1" 200 11863
+INFO 2026-02-15 16:01:19,046 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:01:20,601 log "GET /admin/ttgen/ HTTP/1.1" 200 9553
+INFO 2026-02-15 16:01:22,794 log "GET /admin/ttgen/ HTTP/1.1" 200 9553
+INFO 2026-02-15 16:01:24,307 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20010
+INFO 2026-02-15 16:01:24,329 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:03:55,277 log "GET /admin/ttgen/batch/add/ HTTP/1.1" 200 14551
+INFO 2026-02-15 16:03:55,812 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:03:56,925 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20010
+INFO 2026-02-15 16:03:56,941 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:09,469 log "POST /admin/ttgen/batch/ HTTP/1.1" 200 13739
+INFO 2026-02-15 16:04:09,500 log "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2026-02-15 16:04:19,522 log "POST /admin/ttgen/batch/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:04:19,542 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 12810
+INFO 2026-02-15 16:04:19,566 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:23,565 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 12667
+INFO 2026-02-15 16:04:23,579 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:25,822 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16637
+INFO 2026-02-15 16:04:26,134 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:32,851 log "POST /admin/ttgen/course/ HTTP/1.1" 200 13205
+INFO 2026-02-15 16:04:34,879 log "POST /admin/ttgen/course/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:04:34,892 log "GET /admin/ttgen/course/ HTTP/1.1" 200 12708
+INFO 2026-02-15 16:04:34,906 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:37,918 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13184
+INFO 2026-02-15 16:04:38,222 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:46,102 log "POST /admin/ttgen/department/ HTTP/1.1" 200 11618
+INFO 2026-02-15 16:04:47,446 log "POST /admin/ttgen/department/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:04:47,459 log "GET /admin/ttgen/department/ HTTP/1.1" 200 12030
+INFO 2026-02-15 16:04:47,474 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:48,734 log "GET /admin/ttgen/division/ HTTP/1.1" 200 11866
+INFO 2026-02-15 16:04:49,038 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:51,155 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14612
+INFO 2026-02-15 16:04:51,470 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:55,061 log "POST /admin/ttgen/instructor/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:04:55,077 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14811
+INFO 2026-02-15 16:04:55,091 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:04:57,554 log "POST /admin/ttgen/instructor/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:04:57,571 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 14811
+INFO 2026-02-15 16:04:57,585 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:01,557 log "POST /admin/ttgen/instructor/ HTTP/1.1" 200 11909
+INFO 2026-02-15 16:05:02,659 log "POST /admin/ttgen/instructor/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:05:02,673 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 12031
+INFO 2026-02-15 16:05:02,688 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:04,080 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33003
+INFO 2026-02-15 16:05:04,405 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:11,603 log "POST /admin/ttgen/meetingtime/ HTTP/1.1" 200 18776
+INFO 2026-02-15 16:05:14,067 log "POST /admin/ttgen/meetingtime/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:05:14,082 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 13238
+INFO 2026-02-15 16:05:14,097 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:15,803 log "GET /admin/ttgen/room/ HTTP/1.1" 200 17155
+INFO 2026-02-15 16:05:16,112 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:20,760 log "POST /admin/ttgen/room/ HTTP/1.1" 200 12122
+INFO 2026-02-15 16:05:22,408 log "POST /admin/ttgen/room/ HTTP/1.1" 302 0
+INFO 2026-02-15 16:05:22,421 log "GET /admin/ttgen/room/ HTTP/1.1" 200 12675
+INFO 2026-02-15 16:05:22,436 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:23,816 log "GET /admin/ttgen/section/ HTTP/1.1" 200 11857
+INFO 2026-02-15 16:05:24,123 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:25,832 log "GET /admin/ttgen/room/ HTTP/1.1" 200 12534
+INFO 2026-02-15 16:05:25,846 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:27,100 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 13088
+INFO 2026-02-15 16:05:27,115 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:27,696 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 11884
+INFO 2026-02-15 16:05:27,710 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:28,733 log "GET /admin/ttgen/division/ HTTP/1.1" 200 11866
+INFO 2026-02-15 16:05:28,747 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:29,400 log "GET /admin/ttgen/department/ HTTP/1.1" 200 11884
+INFO 2026-02-15 16:05:29,413 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:31,534 log "GET /admin/auth/user/ HTTP/1.1" 200 15495
+INFO 2026-02-15 16:05:31,842 log "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-02-15 16:05:31,843 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:32,712 log "GET /admin/auth/group/ HTTP/1.1" 200 11863
+INFO 2026-02-15 16:05:33,010 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:05:34,703 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 11839
+INFO 2026-02-15 16:05:34,719 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:18:12,647 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 16:18:15,236 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20028
+INFO 2026-02-15 16:18:15,273 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:18:18,339 log "GET /admin/ttgen/batch/ HTTP/1.1" 200 20028
+INFO 2026-02-15 16:18:18,353 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:18:19,719 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16597
+INFO 2026-02-15 16:18:19,733 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:18:28,736 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13184
+INFO 2026-02-15 16:18:28,750 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:18:30,619 log "GET /admin/ttgen/course/ HTTP/1.1" 200 16597
+INFO 2026-02-15 16:18:30,632 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:10,413 log "GET /admin/ttgen/department/ HTTP/1.1" 200 13184
+INFO 2026-02-15 16:19:10,435 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:12,471 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14679
+INFO 2026-02-15 16:19:12,486 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:15,271 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 16244
+INFO 2026-02-15 16:19:15,285 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:27,315 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33127
+INFO 2026-02-15 16:19:27,332 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:33,891 log "GET /admin/ttgen/room/ HTTP/1.1" 200 19582
+INFO 2026-02-15 16:19:33,910 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:19:42,180 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 16:19:42,194 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:28:03,808 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 16:28:56,038 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33127
+INFO 2026-02-15 16:28:56,070 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:29:10,339 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 16:29:10,364 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:30:32,735 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 16:30:33,372 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 16:40:51,263 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 16:41:53,434 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/models.py changed, reloading.
+INFO 2026-02-15 16:41:54,499 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 16:44:34,817 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:04:27,093 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:05:20,992 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:05:21,408 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:05:23,537 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:05:23,835 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 17:05:34,114 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 346, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-15 17:05:34,115 log "GET / HTTP/1.1" 500 81841
+ERROR 2026-02-15 17:05:36,037 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 346, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-15 17:05:36,039 log "GET / HTTP/1.1" 500 81841
+ERROR 2026-02-15 17:05:36,454 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 346, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-15 17:05:36,455 log "GET / HTTP/1.1" 500 81697
+INFO 2026-02-15 17:06:07,064 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 17:06:11,853 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 346, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-15 17:06:11,854 log "GET / HTTP/1.1" 500 82315
+INFO 2026-02-15 17:06:38,561 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 17:06:39,199 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 17:06:40,587 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 17:06:40,604 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 17:07:06,234 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 17:07:06,258 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 17:07:09,131 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-15 17:07:09,158 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-15 17:19:01,698 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:22:23,102 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:22:24,202 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:23:35,109 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:23:35,553 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 17:23:57,923 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1162, in timetable
+    population = Population(POPULATION_SIZE)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1036, in __init__
+    schedule = Schedule()
+               ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 701, in __init__
+    self.smart_initialize()
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 739, in smart_initialize
+    assigned = self._assign_class_greedy(newClass, course_type)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 769, in _assign_class_greedy
+    if cls.batch and time.id in self._batch_schedule.get(cls.batch.id, set()):
+                     ^^^^^^^
+AttributeError: 'MeetingTime' object has no attribute 'id'
+ERROR 2026-02-15 17:23:57,925 log "GET /timetable_generation/ HTTP/1.1" 500 89455
+INFO 2026-02-15 17:24:05,082 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:24:05,551 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:27:53,289 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:27:53,795 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:28:11,864 basehttp - Broken pipe from ('127.0.0.1', 52712)
+INFO 2026-02-15 17:28:12,931 log "GET /timetable_generation/ HTTP/1.1" 200 91770
+INFO 2026-02-15 17:36:55,227 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:36:56,135 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:37:38,759 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:37:39,183 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:37:44,346 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:37:44,760 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:38:08,101 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:38:08,523 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:38:13,172 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:38:37,728 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 17:43:04,614 log "GET /timetable_generation/ HTTP/1.1" 200 90270
+INFO 2026-02-15 17:54:33,856 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 17:54:34,941 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:04:42,959 log "GET /timetable_generation/ HTTP/1.1" 200 92210
+INFO 2026-02-15 18:29:45,434 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:29:46,538 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:34:48,360 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:34:48,890 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:34:51,088 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:34:51,419 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:34:52,586 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:34:52,977 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:31,573 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:32,022 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:34,215 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:34,547 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:37,723 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:38,033 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:43,180 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:43,560 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:45,635 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:45,975 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:35:48,087 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:35:48,502 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:36:06,871 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:36:07,328 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:36:08,481 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:36:08,822 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:36:17,414 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:39:45,061 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:39:45,927 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:41:05,243 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:41:05,789 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:41:13,936 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:41:14,529 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:41:15,710 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 18:41:16,023 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 18:42:14,151 log "GET /timetable_generation/ HTTP/1.1" 200 91741
+INFO 2026-02-15 19:02:38,692 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 19:02:45,130 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2610, in timetable
+    data = get_data()
+           ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2500, in get_data
+    data = Data()
+           ^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1813, in __init__
+    self._time_slots[mt.id] = TimeSlot(mt)
+                              ^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1720, in __init__
+    self.id = meeting_time_obj.id if meeting_time_obj else None
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MeetingTime' object has no attribute 'id'
+ERROR 2026-02-15 19:02:45,131 log "GET /timetable_generation/ HTTP/1.1" 500 77825
+ERROR 2026-02-15 19:02:46,061 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2610, in timetable
+    data = get_data()
+           ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2500, in get_data
+    data = Data()
+           ^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1813, in __init__
+    self._time_slots[mt.id] = TimeSlot(mt)
+                              ^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1720, in __init__
+    self.id = meeting_time_obj.id if meeting_time_obj else None
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MeetingTime' object has no attribute 'id'
+ERROR 2026-02-15 19:02:46,062 log "GET /timetable_generation/ HTTP/1.1" 500 77825
+ERROR 2026-02-15 19:02:48,167 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2610, in timetable
+    data = get_data()
+           ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2500, in get_data
+    data = Data()
+           ^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1813, in __init__
+    self._time_slots[mt.id] = TimeSlot(mt)
+                              ^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1720, in __init__
+    self.id = meeting_time_obj.id if meeting_time_obj else None
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MeetingTime' object has no attribute 'id'
+ERROR 2026-02-15 19:02:48,168 log "GET /timetable_generation/ HTTP/1.1" 500 77825
+INFO 2026-02-15 19:13:16,271 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-15 19:13:20,685 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 3758, in timetable
+    data = get_data()
+           ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 3648, in get_data
+    data = Data()
+           ^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2979, in __init__
+    self._instructors_by_course[course.id] = list(course.instructors.all())
+                                ^^^^^^^^^
+AttributeError: 'Course' object has no attribute 'id'
+ERROR 2026-02-15 19:13:20,687 log "GET /timetable_generation/ HTTP/1.1" 500 74136
+ERROR 2026-02-15 19:13:22,220 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 3758, in timetable
+    data = get_data()
+           ^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 3648, in get_data
+    data = Data()
+           ^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2979, in __init__
+    self._instructors_by_course[course.id] = list(course.instructors.all())
+                                ^^^^^^^^^
+AttributeError: 'Course' object has no attribute 'id'
+ERROR 2026-02-15 19:13:22,221 log "GET /timetable_generation/ HTTP/1.1" 500 73999
+INFO 2026-02-15 19:15:53,555 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 19:15:54,361 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 19:21:34,808 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 19:23:03,858 basehttp - Broken pipe from ('127.0.0.1', 54814)
+INFO 2026-02-15 19:23:03,861 log "GET /timetable_generation/ HTTP/1.1" 200 90715
+INFO 2026-02-15 19:30:28,559 autoreload Watching for file changes with StatReloader
+INFO 2026-02-15 19:39:54,320 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-15 19:39:55,310 autoreload Watching for file changes with StatReloader
+INFO 2026-02-21 21:45:11,938 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-21 21:45:52,310 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2438, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-21 21:45:52,318 log "GET / HTTP/1.1" 500 82295
+ERROR 2026-02-21 21:45:52,516 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2438, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-21 21:45:52,518 log "GET / HTTP/1.1" 500 82151
+WARNING 2026-02-21 21:45:52,675 log Not Found: /favicon.ico
+WARNING 2026-02-21 21:45:52,676 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-02-21 21:45:56,757 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4084
+INFO 2026-02-21 21:45:56,777 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-02-21 21:45:56,779 log "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-02-21 21:45:56,782 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-02-21 21:45:56,784 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-02-21 21:45:56,790 log "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-02-21 21:45:56,791 log "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2026-02-21 21:45:56,793 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-02-21 21:46:01,640 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-21 21:46:01,657 log "GET /admin/ HTTP/1.1" 200 14348
+INFO 2026-02-21 21:46:01,671 log "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-02-21 21:46:01,691 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-02-21 21:46:01,692 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-02-21 21:46:01,692 log "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 689
+INFO 2026-02-21 21:56:28,524 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-21 21:56:35,278 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2438, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-21 21:56:35,280 log "GET / HTTP/1.1" 500 82437
+ERROR 2026-02-21 21:56:35,379 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2438, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-02-21 21:56:35,380 log "GET / HTTP/1.1" 500 82293
+INFO 2026-02-21 21:56:41,974 basehttp - Broken pipe from ('127.0.0.1', 61077)
+INFO 2026-02-21 21:56:42,117 log "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-21 21:56:42,125 basehttp - Broken pipe from ('127.0.0.1', 61078)
+INFO 2026-02-21 21:56:45,417 log "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-21 21:56:45,754 log "GET /admin/ HTTP/1.1" 200 14348
+INFO 2026-02-21 21:56:49,014 log "GET /admin/ HTTP/1.1" 200 14348
+INFO 2026-02-21 22:00:19,337 autoreload Watching for file changes with StatReloader
+INFO 2026-02-21 22:00:43,011 log "GET /timetable_generation/ HTTP/1.1" 200 91186
+INFO 2026-02-21 22:00:50,275 log "GET /timetable_generation/ HTTP/1.1" 200 91291
+INFO 2026-02-21 22:00:50,275 basehttp - Broken pipe from ('127.0.0.1', 61105)
+INFO 2026-02-21 22:07:03,941 log "GET /timetable_generation/ HTTP/1.1" 200 67380
+ERROR 2026-02-21 22:15:03,842 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'custom_filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 3103, in timetable
+    return render(request, 'gentimetable.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/base.py", line 585, in parse
+    raise self.error(token, e)
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Template: /Users/adityanalkande/Desktop/Django/autotimetablegenerator/templates/gentimetable.html, 'custom_filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+tz
+ERROR 2026-02-21 22:15:03,847 log "GET /timetable_generation/ HTTP/1.1" 500 213680
+INFO 2026-02-21 22:24:23,471 log "GET /timetable_generation/ HTTP/1.1" 200 71723
+INFO 2026-02-21 22:26:58,630 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-21 22:27:02,679 autoreload Watching for file changes with StatReloader
+INFO 2026-02-21 22:29:27,744 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-02-21 22:29:28,559 autoreload Watching for file changes with StatReloader
+INFO 2026-02-21 22:31:53,231 log "GET /timetable_generation/ HTTP/1.1" 200 71748
+INFO 2026-02-21 22:34:12,662 log "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-02-21 22:34:12,712 log "GET /admin/ HTTP/1.1" 200 14348
+INFO 2026-02-21 22:34:16,720 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14679
+INFO 2026-02-21 22:34:16,741 log "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,741 log "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,742 log "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,743 log "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,747 log "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,750 log "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,751 log "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,757 log "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,767 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-21 22:34:16,769 log "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-02-21 22:34:16,770 log "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-02-21 22:34:16,780 log "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:16,810 log "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:19,579 log "GET /admin/ttgen/room/ HTTP/1.1" 200 19582
+INFO 2026-02-21 22:34:19,600 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-21 22:34:19,637 log "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:19,637 log "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2026-02-21 22:34:20,305 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-21 22:34:20,318 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-21 22:34:27,445 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33127
+INFO 2026-02-21 22:34:27,477 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-21 22:34:29,322 log "GET /admin/ttgen/instructor/ HTTP/1.1" 200 16244
+INFO 2026-02-21 22:34:29,335 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-02-21 22:34:44,284 log "GET /admin/ttgen/meetingtime/ HTTP/1.1" 200 33127
+INFO 2026-02-21 22:34:45,006 log "GET /admin/ttgen/section/ HTTP/1.1" 200 51213
+INFO 2026-02-21 22:34:45,547 log "GET /admin/ttgen/room/ HTTP/1.1" 200 19582
+INFO 2026-02-21 22:34:46,121 log "GET /admin/ttgen/division/ HTTP/1.1" 200 14679
+INFO 2026-02-21 22:34:47,189 log "GET /admin/ HTTP/1.1" 200 14348
+INFO 2026-02-23 10:37:57,199 autoreload Watching for file changes with StatReloader
+INFO 2026-02-23 10:43:03,791 log "GET /timetable_generation/ HTTP/1.1" 200 71736
+WARNING 2026-02-23 10:43:04,535 log Not Found: /favicon.ico
+WARNING 2026-02-23 10:43:04,535 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-15 18:45:05,025 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 18:45:40,080 basehttp - Broken pipe from ('127.0.0.1', 53697)
+INFO 2026-03-15 18:45:45,261 log "GET /timetable_generation/ HTTP/1.1" 200 71709
+WARNING 2026-03-15 18:45:46,804 log Not Found: /favicon.ico
+WARNING 2026-03-15 18:45:46,806 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-15 18:58:30,511 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 18:58:31,876 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 18:59:05,795 log "GET /timetable_generation/ HTTP/1.1" 200 71746
+INFO 2026-03-15 18:59:27,830 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 18:59:28,683 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:01:36,504 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:01:37,092 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-15 19:01:40,804 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/urls/base.py", line 81, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return _redirect_to_login(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 24, in _redirect_to_login
+    resolved_login_url = resolve_url(login_url or settings.LOGIN_URL)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/urls/base.py", line 92, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+ERROR 2026-03-15 19:01:40,806 log "GET /timetable_generation/ HTTP/1.1" 500 90208
+ERROR 2026-03-15 19:01:55,899 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/urls/base.py", line 81, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return _redirect_to_login(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 24, in _redirect_to_login
+    resolved_login_url = resolve_url(login_url or settings.LOGIN_URL)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/urls/base.py", line 92, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+ERROR 2026-03-15 19:01:55,902 log "GET /timetable_generation/ HTTP/1.1" 500 90208
+INFO 2026-03-15 19:01:59,363 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:01:59,899 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:02:27,313 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:02:27,739 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:02:39,926 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:02:40,419 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:02:45,556 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:02:45,937 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:03:08,666 log "GET /timetable_generation/ HTTP/1.1" 200 71746
+INFO 2026-03-15 19:03:37,794 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:03:55,771 log "GET /timetable_generation/ HTTP/1.1" 200 71746
+INFO 2026-03-15 19:27:21,425 log "GET /timetable_generation/ HTTP/1.1" 200 59166
+INFO 2026-03-15 19:30:04,218 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:30:05,138 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:30:29,983 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 19:31:02,074 log "GET /timetable_generation/ HTTP/1.1" 200 59108
+INFO 2026-03-15 19:48:40,343 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 19:48:41,134 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 20:05:50,505 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 20:05:53,805 log "GET /timetable_generation/ HTTP/1.1" 200 54044
+INFO 2026-03-15 20:06:16,955 log "GET /timetable_generation/ HTTP/1.1" 200 54091
+INFO 2026-03-15 20:06:18,705 log "GET /timetable_generation/ HTTP/1.1" 200 54064
+INFO 2026-03-15 20:06:24,522 log "GET /timetable_generation/ HTTP/1.1" 200 54082
+INFO 2026-03-15 20:06:25,703 log "GET /timetable_generation/ HTTP/1.1" 200 54050
+INFO 2026-03-15 20:06:26,882 log "GET /timetable_generation/ HTTP/1.1" 200 54021
+INFO 2026-03-15 20:06:27,435 log "GET /timetable_generation/ HTTP/1.1" 200 54089
+INFO 2026-03-15 20:06:27,877 log "GET /timetable_generation/ HTTP/1.1" 200 54060
+INFO 2026-03-15 20:06:28,098 log "GET /timetable_generation/ HTTP/1.1" 200 54057
+INFO 2026-03-15 20:06:28,349 basehttp - Broken pipe from ('127.0.0.1', 54524)
+INFO 2026-03-15 20:06:28,540 basehttp - Broken pipe from ('127.0.0.1', 54525)
+INFO 2026-03-15 20:06:28,681 basehttp - Broken pipe from ('127.0.0.1', 54527)
+INFO 2026-03-15 20:06:28,812 log "GET /timetable_generation/ HTTP/1.1" 200 54014
+INFO 2026-03-15 20:06:28,966 log "GET /timetable_generation/ HTTP/1.1" 200 54076
+INFO 2026-03-15 20:06:29,871 log "GET /timetable_generation/ HTTP/1.1" 200 54002
+INFO 2026-03-15 20:07:08,323 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-15 20:07:08,791 autoreload Watching for file changes with StatReloader
+INFO 2026-03-15 20:07:10,877 log "GET /timetable_generation/ HTTP/1.1" 200 54108
+INFO 2026-03-15 20:07:13,210 log "GET /timetable_generation/ HTTP/1.1" 200 54084
+INFO 2026-03-17 16:11:43,708 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-17 16:12:07,729 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 768, in timetable
+    'fitness': 1.0 if not final_conflicts else round(1 / (1 + final_conflicts), 4),
+                                                          ~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+INFO 2026-03-17 16:12:07,741 basehttp - Broken pipe from ('127.0.0.1', 52942)
+ERROR 2026-03-17 16:12:08,048 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 768, in timetable
+    'fitness': 1.0 if not final_conflicts else round(1 / (1 + final_conflicts), 4),
+                                                          ~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+INFO 2026-03-17 16:12:08,051 basehttp - Broken pipe from ('127.0.0.1', 52944)
+ERROR 2026-03-17 16:12:09,632 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 768, in timetable
+    'fitness': 1.0 if not final_conflicts else round(1 / (1 + final_conflicts), 4),
+                                                          ~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+ERROR 2026-03-17 16:12:09,633 log "GET /timetable_generation/ HTTP/1.1" 500 81692
+INFO 2026-03-17 16:13:27,481 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:13:28,242 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:14:01,719 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:14:02,109 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:14:05,276 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:14:05,614 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:14:57,326 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:14:57,966 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:14:59,117 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:14:59,427 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:08,643 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:09,057 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:12,217 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:12,552 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:14,680 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:14,972 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:20,128 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:20,441 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:27,636 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:28,176 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:31,326 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:31,729 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:34,852 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:35,186 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:40,338 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:40,679 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:43,813 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:44,127 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:48,265 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:48,590 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:15:53,751 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:15:54,125 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:17:17,180 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:17:17,770 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:18:56,986 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:18:57,457 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:19:15,742 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:19:16,165 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:19:46,641 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:19:47,318 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:19:52,432 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:19:52,739 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:19:59,962 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:00,292 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:01,438 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:01,763 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:02,915 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:03,213 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:09,416 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:09,754 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:25,047 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:25,623 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:34,862 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:35,325 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:20:39,532 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:20:39,880 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:21:31,605 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:21:32,145 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:21:33,292 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:21:33,617 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:21:34,766 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:21:35,100 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:21:41,288 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:21:41,597 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:21:44,754 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:21:45,093 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:22:32,234 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:22:50,854 log "GET /timetable_generation/ HTTP/1.1" 200 54083
+WARNING 2026-03-17 16:22:51,093 log Not Found: /favicon.ico
+WARNING 2026-03-17 16:22:51,093 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-17 16:31:48,140 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:31:48,898 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:32:05,182 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:32:05,602 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:33:09,457 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:33:10,036 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:33:15,204 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:33:15,573 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:33:29,275 log "GET /timetable_generation/ HTTP/1.1" 200 54070
+INFO 2026-03-17 16:41:05,898 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:41:06,713 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:41:10,912 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:41:11,244 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:41:12,430 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-17 16:41:12,917 autoreload Watching for file changes with StatReloader
+INFO 2026-03-17 16:41:30,194 log "GET /timetable_generation/ HTTP/1.1" 200 54055
+INFO 2026-03-17 16:48:41,916 log "GET /timetable_generation/ HTTP/1.1" 200 54062

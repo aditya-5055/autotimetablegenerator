@@ -1,0 +1,315 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PICT | Generated Timetable</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    
+    <style>
+        /* Reset & Base Styles */
+        body { 
+            background: #e9ecef; 
+            margin: 0; 
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif; 
+        }
+        
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: white; 
+            padding: 40px; 
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2); 
+        }
+        
+        /* PICT Specific Styles */
+        .timetable-wrapper {
+            margin-bottom: 50px;
+        }
+        
+        .pict-header { 
+            text-align: center; 
+            margin-bottom: 20px; 
+            color: #000;
+        }
+        .pict-header h2 { font-size: 26px; font-weight: bold; margin: 5px 0; letter-spacing: 2px;}
+        .pict-header h3 { font-size: 18px; font-weight: bold; margin: 5px 0; }
+        .pict-header h4 { font-size: 16px; font-weight: normal; margin: 5px 0; text-decoration: underline; }
+        
+        .meta-table { 
+            width: 100%; 
+            margin-bottom: 15px; 
+            font-size: 15px; 
+            font-weight: bold; 
+        }
+        .meta-table td { padding: 4px 0; }
+        .meta-table .right { text-align: right; }
+        
+        /* The Timetable Grid */
+        .tt-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 13px; 
+            text-align: center; 
+            border: 2px solid black;
+        }
+        .tt-table th, .tt-table td { 
+            border: 1px solid black; 
+            padding: 8px 4px; 
+            vertical-align: middle;
+            height: 55px; /* Ensures uniform row heights */
+        }
+        .tt-table th { 
+            background-color: #f0f0f0; 
+            font-weight: bold; 
+            font-size: 14px;
+        }
+        
+        /* Break Rows */
+        .tt-break { 
+            font-weight: bold; 
+            background-color: #e8e8e8; 
+            letter-spacing: 5px; 
+        }
+        
+        /* Cell Contents */
+        .cell-content { margin-bottom: 6px; }
+        .cell-content:last-child { margin-bottom: 0; border-bottom: none !important;}
+        .cell-course { font-weight: bold; font-size: 13px; color: #000; }
+        .cell-room { font-size: 11px; color: #444; }
+        .cell-inst { font-size: 11px; font-style: italic; color: #222; }
+        .lab-separator { border-top: 1px dashed #888; margin-top: 5px; padding-top: 5px; }
+
+        /* UI Buttons */
+        .action-bar { text-align: center; margin-bottom: 20px; }
+        .btn-download { 
+            padding: 12px 30px; 
+            background: #343a40; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.2s;
+        }
+        .btn-download:hover { background: #23272b; }
+
+        /* Print & PDF Adjustments */
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; margin: 0; padding: 0; max-width: 100%; }
+            .no-print { display: none; }
+            .page-break { page-break-after: always; }
+            .tt-table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="action-bar no-print">
+        <button class="btn-download" id="download"><i class="fas fa-file-pdf"></i> Download PDF Document</button>
+    </div>
+
+    <div class="container" id="pdf-content">
+        <div id="raw-data" style="display:none;">
+            {% for class in schedule %}
+                <div class="data-row"
+                     data-div="{% if class.division %}{{ class.division.division_name }}{% else %}{{ class.batch.division.division_name }}{% endif %}"
+                     data-batch="{% if class.batch %}{{ class.batch.batch_name }}{% else %}{% endif %}"
+                     data-course="{{ class.course.course_number }}"
+                     data-room="{{ class.room.r_number }}"
+                     data-instructor="{{ class.instructor.name }}"
+                     data-day="{{ class.meeting_time.day }}"
+                     data-time="{{ class.meeting_time.time }}"
+                     data-type="{{ class.course.course_type }}">
+                </div>
+            {% endfor %}
+        </div>
+
+        <div id="timetables-container"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // 1. EXTRACT DATA FROM DJANGO HIDDEN DIVS
+            const rows = document.querySelectorAll('.data-row');
+            const classes = [];
+            rows.forEach(r => {
+                classes.push({
+                    division: r.getAttribute('data-div'),
+                    batch: r.getAttribute('data-batch'),
+                    course: r.getAttribute('data-course'),
+                    room: r.getAttribute('data-room'),
+                    instructor: r.getAttribute('data-instructor'),
+                    day: r.getAttribute('data-day'),
+                    time: r.getAttribute('data-time'),
+                    type: r.getAttribute('data-type')
+                });
+            });
+
+            // 2. GROUP CLASSES BY DIVISION (e.g., TE-I, TE-II)
+            const divisions = {};
+            classes.forEach(c => {
+                if (!divisions[c.division]) divisions[c.division] = [];
+                divisions[c.division].push(c);
+            });
+
+            // 3. DEFINE TIME BLOCKS (Matching PICT exactly)
+            const timeBlocks = [
+                { label: "08:45 to 09:45", start: "08:45", end: "09:45" },
+                { label: "09:45 to 10:45", start: "09:45", end: "10:45" },
+                { label: "10:45 to 11:00", isBreak: true, name: "SHORT BREAK" },
+                { label: "11:00 to 12:00", start: "11:00", end: "12:00" },
+                { label: "12:00 to 01:00", start: "12:00", end: "13:00" },
+                { label: "01:00 to 01:45", isBreak: true, name: "LUNCH BREAK" },
+                { label: "01:45 to 02:45", start: "13:45", end: "14:45" },
+                { label: "02:45 to 03:45", start: "14:45", end: "15:45" }
+            ];
+            const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
+            // 4. OVERLAP LOGIC (Calculates if a 2-hour lab spans a 1-hour block)
+            function timeOverlaps(classTimeStr, blockStart, blockEnd) {
+                if (!classTimeStr) return false;
+                let parts = classTimeStr.split("-").map(s => s.trim());
+                if (parts.length !== 2) return false;
+                
+                let cStart = parts[0];
+                let cEnd = parts[1];
+                
+                // If the class starts before the block ends, AND ends after the block starts = OVERLAP
+                return (cStart < blockEnd) && (cEnd > blockStart);
+            }
+
+            // 5. BUILD THE HTML FOR EACH DIVISION
+            const container = document.getElementById('timetables-container');
+            
+            Object.keys(divisions).sort().forEach((divName, index) => {
+                const divClasses = divisions[divName];
+                
+                // Add page-break class to ensure each timetable is on a new page in the PDF
+                let html = `
+                    <div class="timetable-wrapper ${index > 0 ? 'page-break' : ''}">
+                        
+                        <div class="pict-header">
+                            <h2>PICT</h2>
+                            <h3>PUNE INSTITUTE OF COMPUTER TECHNOLOGY</h3>
+                            <h4>DHANKAWADI, PUNE-43</h4>
+                            <h4>CLASS TIME TABLE</h4>
+                        </div>
+                        
+                        <table class="meta-table">
+                            <tr>
+                                <td>Academic Year : 2025-26</td>
+                                <td style="text-align:center;">Department : CE</td>
+                                <td class="right">Semester : II</td>
+                            </tr>
+                            <tr>
+                                <td>Class : ${divName}</td>
+                                <td></td>
+                                <td class="right">W.E.F. : 01/01/2026</td>
+                            </tr>
+                        </table>
+
+                        <table class="tt-table">
+                            <thead>
+                                <tr>
+                                    <th style="width:12%;">Time</th>
+                                    ${days.map(d => `<th style="width:17.6%;">${d}</th>`).join('')}
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+
+                timeBlocks.forEach(block => {
+                    if (block.isBreak) {
+                        html += `
+                            <tr>
+                                <td>${block.label}</td>
+                                <td colspan="5" class="tt-break">${block.name}</td>
+                            </tr>
+                        `;
+                    } else {
+                        html += `<tr><td>${block.label}</td>`;
+                        
+                        days.forEach(day => {
+                            // Fetch all classes happening in this specific Cell (Day + Time Block)
+                            const cellClasses = divClasses.filter(c => c.day === day && timeOverlaps(c.time, block.start, block.end));
+                            
+                            html += `<td>`;
+                            if (cellClasses.length > 0) {
+                                
+                                const lectures = cellClasses.filter(c => c.type === 'LECTURE');
+                                const labs = cellClasses.filter(c => c.type === 'LAB');
+                                
+                                // Render Lectures
+                                if (lectures.length > 0) {
+                                    lectures.forEach(l => {
+                                        html += `<div class="cell-content">
+                                            <div class="cell-course">${l.course}</div>
+                                            <div class="cell-room">${l.room}</div>
+                                            <div class="cell-inst">${l.instructor}</div>
+                                        </div>`;
+                                    });
+                                }
+                                
+                                // Render Labs (Grouped by Course to combine batches like "LP-II (K1, L1)")
+                                if (labs.length > 0) {
+                                    const labGroups = {};
+                                    labs.forEach(l => {
+                                        if(!labGroups[l.course]) labGroups[l.course] = [];
+                                        labGroups[l.course].push(l);
+                                    });
+                                    
+                                    Object.keys(labGroups).forEach((course, i) => {
+                                        let batches = labGroups[course].map(l => l.batch).join(', ');
+                                        let rooms = [...new Set(labGroups[course].map(l => l.room))].join(' / ');
+                                        
+                                        // Add dotted line if there's a mix of lab and lecture (Shouldn't happen, but safe formatting)
+                                        let sepClass = (lectures.length > 0 || i > 0) ? 'lab-separator' : '';
+                                        
+                                        html += `<div class="cell-content ${sepClass}">
+                                            <div class="cell-course">${course} (${batches})</div>
+                                            <div class="cell-room">${rooms}</div>
+                                        </div>`;
+                                    });
+                                }
+                            } else {
+                                html += `-`; // Empty cell
+                            }
+                            html += `</td>`;
+                        });
+                        html += `</tr>`;
+                    }
+                });
+
+                html += `
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                container.innerHTML += html;
+            });
+
+            // 6. PDF DOWNLOAD LOGIC
+            document.getElementById("download").addEventListener("click", () => {
+                const element = document.getElementById("pdf-content");
+                var opt = {
+                    margin:       [0.4, 0.4, 0.4, 0.4],
+                    filename:     'PICT_Generated_Timetable.pdf',
+                    image:        { type: 'jpeg', quality: 0.98 },
+                    html2canvas:  { scale: 2, useCORS: true },
+                    jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' } // A4 Portrait matches the PDF!
+                };
+                html2pdf().from(element).set(opt).save();
+            });
+        });
+    </script>
+</body>
+</html>

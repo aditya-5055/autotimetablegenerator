@@ -1,0 +1,482 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PICT | Class Time Table</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #e8e8e8;
+            padding: 20px;
+        }
+
+        /* ── Print button ── */
+        .no-print {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        .btn-pdf {
+            padding: 10px 32px;
+            background: #1a1a1a;
+            color: #fff;
+            border: none;
+            font-family: 'Times New Roman', serif;
+            font-size: 15px;
+            cursor: pointer;
+            letter-spacing: 1px;
+        }
+        .btn-pdf:hover { background: #333; }
+
+        /* ── Page wrapper ── */
+        #pdf-content {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* ── One division = one "page" ── */
+        .tt-page {
+            background: #fff;
+            padding: 28px 32px 24px;
+            margin-bottom: 30px;
+            border: 1px solid #aaa;
+            page-break-after: always;
+        }
+
+        /* ── College header ── */
+        .college-header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .college-header .logo-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            margin-bottom: 4px;
+        }
+        .pict-logo {
+            width: 54px; height: 54px;
+            background: #003087;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 13px; font-weight: bold;
+            flex-shrink: 0;
+        }
+        .college-name h2 { font-size: 17px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
+        .college-name h3 { font-size: 13px; font-weight: normal; }
+        .college-name h4 { font-size: 13px; font-weight: bold; margin-top: 2px; text-decoration: underline; }
+
+        /* ── Meta info table (Academic Year, Class etc.) ── */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 1px solid #000;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .meta-left, .meta-right {
+            padding: 5px 10px;
+        }
+        .meta-left { border-right: 1px solid #000; }
+        .meta-row { display: flex; gap: 6px; margin-bottom: 3px; }
+        .meta-row:last-child { margin-bottom: 0; }
+        .meta-label { font-weight: bold; min-width: 110px; }
+
+        /* ── Main timetable grid ── */
+        .tt-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            margin-bottom: 14px;
+        }
+        .tt-table th, .tt-table td {
+            border: 1px solid #000;
+            padding: 5px 4px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .tt-table thead th {
+            background: #f0f0f0;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .tt-table td.time-col {
+            font-weight: bold;
+            background: #f9f9f9;
+            white-space: nowrap;
+            width: 112px;
+        }
+        .tt-table td.break-col {
+            background: #f0f0f0;
+            font-weight: bold;
+            letter-spacing: 4px;
+            font-size: 12px;
+        }
+
+        /* ── Cell content ── */
+        .cell-entry {
+            margin-bottom: 4px;
+            padding-bottom: 3px;
+            border-bottom: 1px dashed #bbb;
+            line-height: 1.35;
+        }
+        .cell-entry:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .cell-course { font-weight: bold; font-size: 12px; }
+        .cell-room   { font-size: 11px; color: #333; }
+        .cell-inst   { font-size: 10px; font-style: italic; color: #555; }
+
+        /* ── Bottom two-column tables ── */
+        .bottom-tables {
+            display: flex;
+            gap: 16px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        .bottom-left  { flex: 0 0 38%; }
+        .bottom-right { flex: 1; }
+
+        .sub-heading {
+            font-weight: bold;
+            font-size: 13px;
+            text-align: center;
+            border: 1px solid #000;
+            border-bottom: none;
+            padding: 4px;
+            background: #f0f0f0;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table th, .info-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: left;
+            font-size: 12px;
+        }
+        .info-table th { background: #f0f0f0; font-weight: bold; text-align: center; }
+        .info-table td.course-group {
+            font-weight: bold;
+            vertical-align: middle;
+            background: #fafafa;
+        }
+
+        /* ── Footer signatures ── */
+        .tt-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 18px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* ── Footnote ── */
+        .footnote {
+            font-size: 11px;
+            font-style: italic;
+            margin-top: 8px;
+            color: #444;
+        }
+
+        /* ── Stats bar (screen only) ── */
+        .stats-bar {
+            max-width: 960px;
+            margin: 0 auto 16px;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            gap: 30px;
+            font-size: 13px;
+            font-family: 'Courier New', monospace;
+        }
+        .stats-bar span b { color: #ffd700; }
+
+        @media print {
+            body { background: #fff; padding: 0; }
+            .no-print, .stats-bar { display: none; }
+            .tt-page { border: none; padding: 10px; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Stats (screen only) -->
+<div class="stats-bar no-print">
+    <span>Conflicts: <b>{{ conflicts }}</b></span>
+    <span>Fitness: <b>{{ fitness|floatformat:4 }}</b></span>
+    <span>Verified: <b>{% if verified %}✓ Yes{% else %}✗ No{% endif %}</b></span>
+    <span>Time: <b>{{ time_taken }}s</b></span>
+</div>
+
+<!-- Download button -->
+<div class="no-print">
+    <button class="btn-pdf" id="dl-btn">⬇ Download PDF</button>
+</div>
+
+<!-- Hidden raw data bridge from Django -->
+<div id="raw-data" style="display:none;">
+    {% for cls in schedule %}
+    <div class="dr"
+         data-div="{% if cls.division %}{{ cls.division.division_name }}{% elif cls.batch and cls.batch.division %}{{ cls.batch.division.division_name }}{% else %}UNKNOWN{% endif %}"
+         data-batch="{% if cls.batch %}{{ cls.batch.batch_name }}{% endif %}"
+         data-course-name="{{ cls.course.course_name }}"
+         data-course-code="{{ cls.course.course_number }}"
+         data-room="{{ cls.room.r_number }}"
+         data-instructor="{{ cls.instructor.name }}"
+         data-day="{{ cls.meeting_time.day }}"
+         data-time="{{ cls.meeting_time.time }}"
+         data-type="{{ cls.course.course_type }}">
+    </div>
+    {% endfor %}
+</div>
+
+<div id="pdf-content"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    /* ── 1. Parse data ── */
+    const rows = document.querySelectorAll('.dr');
+    const classes = [];
+    rows.forEach(r => {
+        classes.push({
+            div:        r.dataset.div,
+            batch:      r.dataset.batch || '',
+            courseName: r.dataset.courseName,
+            courseCode: r.dataset.courseCode,
+            room:       r.dataset.room,
+            instructor: r.dataset.instructor,
+            day:        r.dataset.day,
+            time:       r.dataset.time,
+            type:       r.dataset.type
+        });
+    });
+
+    /* ── 2. Group by division ── */
+    const divMap = {};
+    classes.forEach(c => {
+        if (!divMap[c.div]) divMap[c.div] = [];
+        divMap[c.div].push(c);
+    });
+
+    /* ── 3. Time blocks ── */
+    const TIME_BLOCKS = [
+        { label: '08:45 to 09:45',  start: '08:45', end: '09:45' },
+        { label: '09:45 to 10:45',  start: '09:45', end: '10:45' },
+        { label: '10.45 to 11:00',  isBreak: true, name: 'BREAK' },
+        { label: '11:00 to 12:00',  start: '11:00', end: '12:00' },
+        { label: '12:00 to 1:00',   start: '12:00', end: '13:00' },
+        { label: '01:00 to 01:45',  isBreak: true, name: 'LUNCH BREAK' },
+        { label: '01:45 to 02:45',  start: '13:45', end: '14:45' },
+        { label: '02:45 to 03:45',  start: '14:45', end: '15:45' }
+    ];
+    const DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    /* ── 4. Overlap helper ── */
+    function overlaps(timeStr, bStart, bEnd) {
+        if (!timeStr) return false;
+        const p = timeStr.split('-').map(s => s.trim());
+        if (p.length < 2) return false;
+        // normalise to HH:MM for comparison
+        function norm(t) {
+            const [h, m] = t.split(':').map(Number);
+            // times 1:xx – 7:xx are PM in this college
+            const hh = (h >= 1 && h <= 7) ? h + 12 : h;
+            return hh * 60 + (m || 0);
+        }
+        const cs = norm(p[0]), ce = norm(p[1]);
+        const bs = norm(bStart), be = norm(bEnd);
+        return cs < be && ce > bs;
+    }
+
+    /* ── 5. Compact label: "LP-II K1 L1" style ── */
+    function compactLabel(entries) {
+        // group by courseCode
+        const grp = {};
+        entries.forEach(e => {
+            const key = e.courseCode;
+            if (!grp[key]) grp[key] = { name: e.courseCode, batches: [], rooms: new Set(), insts: new Set(), type: e.type };
+            if (e.batch) grp[key].batches.push(e.batch);
+            grp[key].rooms.add(e.room);
+            grp[key].insts.add(e.instructor);
+        });
+
+        let html = '';
+        Object.values(grp).forEach(g => {
+            const batStr = g.batches.length ? ' ' + g.batches.join(' ') : '';
+            const roomStr = [...g.rooms].join('/');
+            html += `<div class="cell-entry">
+                <div class="cell-course">${g.name}${batStr}</div>
+                <div class="cell-room">${roomStr}</div>
+            </div>`;
+        });
+        return html || '-';
+    }
+
+    /* ── 6. Build each division page ── */
+    const container = document.getElementById('pdf-content');
+
+    Object.keys(divMap).sort().forEach(divName => {
+        const dc = divMap[divName];
+
+        /* collect theory staff */
+        const theoryMap = {}; // courseCode -> {name, instructor}
+        const labMap    = {}; // courseCode -> [{batch, inst, room}]
+
+        dc.forEach(c => {
+            if (c.type === 'LECTURE') {
+                theoryMap[c.courseCode] = { name: c.courseName, instructor: c.instructor };
+            } else {
+                if (!labMap[c.courseCode]) labMap[c.courseCode] = { name: c.courseName, entries: [] };
+                // avoid exact duplicates
+                const key = c.batch + '|' + c.instructor + '|' + c.room;
+                if (!labMap[c.courseCode].entries.find(e => e.batch===c.batch && e.instructor===c.instructor && e.room===c.room)) {
+                    labMap[c.courseCode].entries.push({ batch: c.batch, instructor: c.instructor, room: c.room });
+                }
+            }
+        });
+
+        /* ── timetable rows ── */
+        let rowsHtml = '';
+        TIME_BLOCKS.forEach(block => {
+            if (block.isBreak) {
+                rowsHtml += `<tr>
+                    <td class="time-col">${block.label}</td>
+                    <td colspan="6" class="break-col">${block.name}</td>
+                </tr>`;
+            } else {
+                let cellsHtml = `<td class="time-col">${block.label}</td>`;
+                DAYS.forEach(day => {
+                    const hits = dc.filter(c => c.day === day && overlaps(c.time, block.start, block.end));
+                    cellsHtml += `<td>${hits.length ? compactLabel(hits) : '-'}</td>`;
+                });
+                rowsHtml += `<tr>${cellsHtml}</tr>`;
+            }
+        });
+
+        /* ── Theory table rows ── */
+        let theoryRows = Object.values(theoryMap).map(t =>
+            `<tr><td>${t.name}</td><td>${t.instructor}</td></tr>`
+        ).join('');
+
+        /* ── Practical table rows ── */
+        let practRows = '';
+        Object.values(labMap).forEach(lab => {
+            // sort entries by batch
+            const sorted = lab.entries.slice().sort((a,b) => a.batch.localeCompare(b.batch));
+            sorted.forEach((e, i) => {
+                practRows += `<tr>
+                    ${i === 0 ? `<td class="course-group" rowspan="${sorted.length}"><b>${lab.name}</b></td>` : ''}
+                    <td>${e.batch}</td>
+                    <td>${e.instructor}</td>
+                    <td>${e.room}</td>
+                </tr>`;
+            });
+        });
+
+        /* ── Full page HTML ── */
+        container.innerHTML += `
+        <div class="tt-page">
+
+            <!-- College header -->
+            <div class="college-header">
+                <div class="logo-row">
+                    <div class="pict-logo">PICT</div>
+                    <div class="college-name">
+                        <h2>Pune Institute of Computer Technology</h2>
+                        <h3>Dhankawadi, Pune - 43</h3>
+                        <h4>CLASS TIME TABLE</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meta info -->
+            <div class="meta-grid">
+                <div class="meta-left">
+                    <div class="meta-row"><span class="meta-label">Academic Year</span><span>: 2025-26</span></div>
+                    <div class="meta-row"><span class="meta-label">Department</span><span>: CE</span></div>
+                    <div class="meta-row"><span class="meta-label">Class Room</span><span>: —</span></div>
+                </div>
+                <div class="meta-right">
+                    <div class="meta-row"><span class="meta-label">Semester</span><span>: II</span></div>
+                    <div class="meta-row"><span class="meta-label">Class</span><span>: ${divName}</span></div>
+                    <div class="meta-row"><span class="meta-label">W.E.F.</span><span>: 01/01/2026</span></div>
+                </div>
+            </div>
+
+            <!-- Main timetable -->
+            <table class="tt-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        ${DAYS.map(d => `<th>${d}</th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody>${rowsHtml}</tbody>
+            </table>
+
+            <!-- Bottom: Theory + Practical -->
+            <div class="bottom-tables">
+
+                <div class="bottom-left">
+                    <div class="sub-heading">Theory</div>
+                    <table class="info-table">
+                        <tr><th>COURSE</th><th>STAFF</th></tr>
+                        ${theoryRows || '<tr><td colspan="2">—</td></tr>'}
+                    </table>
+                </div>
+
+                <div class="bottom-right">
+                    <div class="sub-heading">Practical</div>
+                    <table class="info-table">
+                        <tr><th>SUBJECT</th><th>BATCH</th><th>STAFF</th><th>LAB</th></tr>
+                        ${practRows || '<tr><td colspan="4">—</td></tr>'}
+                    </table>
+                </div>
+
+            </div>
+
+            <!-- Footnote -->
+            <div class="footnote">
+                * Internship and Hons Seminar - As per availability and mutual convenience of guide and students.
+            </div>
+
+            <!-- Signatures -->
+            <div class="tt-footer">
+                <span>HEAD OF CE DEPARTMENT</span>
+                <span>P:F-CTL – UG / 03 / R0</span>
+                <span>PRINCIPAL</span>
+            </div>
+
+        </div>`;
+    });
+
+    /* ── 7. PDF download ── */
+    document.getElementById('dl-btn').addEventListener('click', () => {
+        const btn = document.getElementById('dl-btn');
+        btn.style.display = 'none';
+        html2pdf()
+            .from(document.getElementById('pdf-content'))
+            .set({
+                margin: [0.35, 0.35, 0.35, 0.35],
+                filename: 'PICT_Timetable.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, useCORS: true },
+                jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+            })
+            .save()
+            .then(() => { btn.style.display = ''; });
+    });
+});
+</script>
+</body>
+</html>

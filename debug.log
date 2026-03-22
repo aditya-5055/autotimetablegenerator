@@ -1876,3 +1876,154 @@ INFO 2026-03-18 21:19:49,541 autoreload /Users/adityanalkande/Desktop/Django/aut
 INFO 2026-03-18 21:19:50,040 autoreload Watching for file changes with StatReloader
 INFO 2026-03-18 21:19:55,386 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
 INFO 2026-03-18 21:19:55,774 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:05:24,526 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:05:51,635 log "GET /timetable_generation/ HTTP/1.1" 200 54099
+WARNING 2026-03-19 15:05:52,230 log Not Found: /favicon.ico
+WARNING 2026-03-19 15:05:52,230 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-19 15:33:30,410 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:33:31,421 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:33:39,650 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:33:40,256 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:33:53,563 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:33:54,223 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:34:51,970 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:34:52,753 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:34:55,919 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:34:56,342 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:35:07,583 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:35:08,028 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:35:17,278 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:35:18,533 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:35:48,288 log "GET /timetable_generation/ HTTP/1.1" 200 51736
+INFO 2026-03-19 15:37:11,415 log "GET /timetable_generation/ HTTP/1.1" 200 49992
+INFO 2026-03-19 15:39:24,282 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:39:25,145 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:39:33,390 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:39:34,278 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:39:48,562 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:39:49,662 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:40:10,103 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:40:11,595 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 15:40:21,873 log "GET /timetable_generation/ HTTP/1.1" 200 54067
+INFO 2026-03-19 15:41:02,670 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 15:41:06,354 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 16:01:58,109 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-19 16:02:14,317 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2230, in timetable
+    solution = generator.generate()
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'TimetableGenerator' object has no attribute 'generate'
+ERROR 2026-03-19 16:02:14,323 log "GET /timetable_generation/ HTTP/1.1" 500 68165
+INFO 2026-03-19 16:02:58,082 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 16:02:58,823 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 16:03:12,106 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 16:03:12,592 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 16:03:16,785 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 16:03:17,203 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-19 16:03:20,745 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2230, in timetable
+    solution = generator.generate()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2126, in generate
+    self.assign_lectures()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TimetableGenerator' object has no attribute 'assign_lectures'
+ERROR 2026-03-19 16:03:20,747 log "GET /timetable_generation/ HTTP/1.1" 500 71938
+ERROR 2026-03-19 16:03:22,487 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2230, in timetable
+    solution = generator.generate()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2126, in generate
+    self.assign_lectures()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TimetableGenerator' object has no attribute 'assign_lectures'
+ERROR 2026-03-19 16:03:22,488 log "GET /timetable_generation/ HTTP/1.1" 500 71938
+INFO 2026-03-19 16:03:40,412 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 16:03:52,888 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-19 16:03:54,925 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2230, in timetable
+    solution = generator.generate()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2126, in generate
+    self.assign_lectures()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TimetableGenerator' object has no attribute 'assign_lectures'
+ERROR 2026-03-19 16:03:54,927 log "GET /timetable_generation/ HTTP/1.1" 500 71939
+INFO 2026-03-19 16:04:39,642 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-19 16:04:40,821 autoreload Watching for file changes with StatReloader
+INFO 2026-03-19 16:04:43,337 log "GET /timetable_generation/ HTTP/1.1" 200 54086
+INFO 2026-03-19 16:06:05,067 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-22 14:27:07,190 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-22 14:27:13,409 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 2180, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-03-22 14:27:13,413 log "GET / HTTP/1.1" 500 81702
+WARNING 2026-03-22 14:27:13,545 log Not Found: /favicon.ico
+WARNING 2026-03-22 14:27:13,546 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-22 14:27:22,768 log "GET /timetable_generation/ HTTP/1.1" 200 54102
+INFO 2026-03-22 14:35:41,607 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-22 14:35:42,974 autoreload Watching for file changes with StatReloader
+INFO 2026-03-22 14:35:45,720 log "GET /timetable_generation/ HTTP/1.1" 200 54097
+INFO 2026-03-22 14:37:15,951 log "GET /timetable_generation/ HTTP/1.1" 200 54097
+INFO 2026-03-22 14:37:19,882 log "GET /timetable_generation/ HTTP/1.1" 200 54084
+INFO 2026-03-22 14:37:20,921 log "GET /timetable_generation/ HTTP/1.1" 200 54106
+INFO 2026-03-22 14:37:21,431 log "GET /timetable_generation/ HTTP/1.1" 200 54094
+INFO 2026-03-22 14:37:22,059 log "GET /timetable_generation/ HTTP/1.1" 200 54088
+INFO 2026-03-22 14:37:23,040 log "GET /timetable_generation/ HTTP/1.1" 200 54102
+INFO 2026-03-22 14:37:23,372 log "GET /timetable_generation/ HTTP/1.1" 200 54091
+INFO 2026-03-22 14:37:23,842 log "GET /timetable_generation/ HTTP/1.1" 200 54108
+INFO 2026-03-22 14:37:24,265 log "GET /timetable_generation/ HTTP/1.1" 200 54088
+INFO 2026-03-22 14:37:24,684 log "GET /timetable_generation/ HTTP/1.1" 200 54054
+INFO 2026-03-22 14:37:25,341 log "GET /timetable_generation/ HTTP/1.1" 200 54095
+INFO 2026-03-22 14:37:25,959 log "GET /timetable_generation/ HTTP/1.1" 200 54109
+INFO 2026-03-22 14:37:26,713 log "GET /timetable_generation/ HTTP/1.1" 200 54074
+INFO 2026-03-22 14:37:30,921 log "GET /timetable_generation/ HTTP/1.1" 200 54109
+INFO 2026-03-22 14:37:33,097 log "GET /timetable_generation/ HTTP/1.1" 200 54090
+INFO 2026-03-22 14:37:34,346 log "GET /timetable_generation/ HTTP/1.1" 200 54088
+INFO 2026-03-22 14:37:35,490 log "GET /timetable_generation/ HTTP/1.1" 200 54087
+INFO 2026-03-22 14:37:36,106 log "GET /timetable_generation/ HTTP/1.1" 200 54099

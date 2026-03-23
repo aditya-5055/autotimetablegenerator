@@ -83,6 +83,9 @@ class Command(BaseCommand):
             ('T018', 'Prof. Deepika Kumari'),
             ('T019', 'Prof. Madhuri Patil'),
             ('T020', 'Prof. R.R. Jadhav'),
+            ('T021', 'Dr. B.A. Sonkamble'),
+            ('T022', 'Prof. H.S. Kumbhar'),
+            ('T023', 'Dr. G.V. Kale'),
         ]
         
         T = {}
@@ -130,21 +133,21 @@ class Command(BaseCommand):
             course_name='Artificial Intelligence',
             max_numb_students=88,
             course_type='LECTURE')
-        ai.instructors.set([T['T001'], T['T004']])  # Girme, Mane
+        ai.instructors.set([T['T001'], T['T004'],T['T018'],T['T021'],T['T022']])  # Girme, Mane
 
         dsbda = Course.objects.create(
             course_number='DSBDA',
             course_name='Data Science & Big Data Analytics',
             max_numb_students=88,
             course_type='LECTURE')
-        dsbda.instructors.set([T['T002'], T['T005']])  # Kulkarni, Joshi
+        dsbda.instructors.set([T['T002'], T['T005'],T['T023'],T['T008']])  # Kulkarni, Joshi
 
         wt = Course.objects.create(
             course_number='WT',
             course_name='Web Technology',
             max_numb_students=88,
             course_type='LECTURE')
-        wt.instructors.set([T['T003'], T['T006']])  # Bundele, Jain
+        wt.instructors.set([T['T003'], T['T006'], T['T015']])  # Bundele, Jain
 
         # Lab courses — eligible teachers listed
         dsbdal = Course.objects.create(

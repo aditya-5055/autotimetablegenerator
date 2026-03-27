@@ -2044,3 +2044,122 @@ INFO 2026-03-23 08:02:48,387 autoreload Watching for file changes with StatReloa
 INFO 2026-03-23 08:02:58,607 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
 INFO 2026-03-23 08:02:59,019 autoreload Watching for file changes with StatReloader
 INFO 2026-03-23 08:03:01,516 log "GET /timetable_generation/ HTTP/1.1" 200 54092
+INFO 2026-03-23 10:52:14,428 autoreload Watching for file changes with StatReloader
+INFO 2026-03-23 10:52:34,109 log "GET /timetable_generation/ HTTP/1.1" 200 54085
+WARNING 2026-03-23 10:52:34,272 log Not Found: /favicon.ico
+WARNING 2026-03-23 10:52:34,273 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-27 11:46:06,420 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-27 11:46:34,465 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1724, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1699, in verify_timetable
+    data = self.data if hasattr(self, 'data') else None
+                                ^^^^
+NameError: name 'self' is not defined
+ERROR 2026-03-27 11:46:34,468 log "GET /timetable_generation/ HTTP/1.1" 500 103389
+WARNING 2026-03-27 11:46:35,185 log Not Found: /favicon.ico
+WARNING 2026-03-27 11:46:35,185 log "GET /favicon.ico HTTP/1.1" 404 10835
+WARNING 2026-03-27 11:46:35,285 log Not Found: /apple-touch-icon-precomposed.png
+WARNING 2026-03-27 11:46:35,286 log "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 10898
+WARNING 2026-03-27 11:46:35,391 log Not Found: /apple-touch-icon.png
+WARNING 2026-03-27 11:46:35,391 log "GET /apple-touch-icon.png HTTP/1.1" 404 10862
+WARNING 2026-03-27 11:46:35,472 log Not Found: /favicon.ico
+WARNING 2026-03-27 11:46:35,472 log "GET /favicon.ico HTTP/1.1" 404 10835
+ERROR 2026-03-27 11:46:56,080 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1724, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1699, in verify_timetable
+    data = self.data if hasattr(self, 'data') else None
+                                ^^^^
+NameError: name 'self' is not defined
+ERROR 2026-03-27 11:46:56,089 log "GET /timetable_generation/ HTTP/1.1" 500 103970
+WARNING 2026-03-27 11:46:56,194 log Not Found: /favicon.ico
+WARNING 2026-03-27 11:46:56,194 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-27 11:47:37,560 autoreload Watching for file changes with StatReloader
+WARNING 2026-03-27 11:47:44,827 log Not Found: /timetable/
+WARNING 2026-03-27 11:47:44,828 log "GET /timetable/ HTTP/1.1" 404 10832
+WARNING 2026-03-27 11:47:45,679 log Not Found: /favicon.ico
+WARNING 2026-03-27 11:47:45,680 log "GET /favicon.ico HTTP/1.1" 404 10835
+INFO 2026-03-27 11:48:03,954 autoreload Watching for file changes with StatReloader
+ERROR 2026-03-27 11:48:10,421 log Internal Server Error: /timetable_generation/
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1724, in timetable
+    conflicts = verify_timetable(solution)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1699, in verify_timetable
+    data = self.data if hasattr(self, 'data') else None
+                                ^^^^
+NameError: name 'self' is not defined
+ERROR 2026-03-27 11:48:10,424 log "GET /timetable_generation/ HTTP/1.1" 500 104677
+INFO 2026-03-27 11:50:36,931 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 11:50:37,449 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 11:50:48,160 log "GET /timetable_generation/ HTTP/1.1" 200 56726
+WARNING 2026-03-27 11:58:10,875 log Not Found: /apple-touch-icon.png
+WARNING 2026-03-27 11:58:10,879 log Not Found: /apple-touch-icon-precomposed.png
+WARNING 2026-03-27 11:58:10,882 log Not Found: /favicon.ico
+WARNING 2026-03-27 11:58:10,883 log "GET /apple-touch-icon.png HTTP/1.1" 404 10862
+WARNING 2026-03-27 11:58:10,884 log "GET /favicon.ico HTTP/1.1" 404 10835
+WARNING 2026-03-27 11:58:10,884 log "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 10898
+ERROR 2026-03-27 11:58:10,901 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py", line 1757, in index
+    return render(request, 'index.html', {})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityanalkande/Desktop/Django/autotimetablegenerator/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2026-03-27 11:58:10,903 log "GET / HTTP/1.1" 500 81035
+INFO 2026-03-27 12:00:17,815 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:00:18,740 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:00:19,929 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:00:20,244 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:00:22,024 log "GET /timetable_generation/ HTTP/1.1" 200 55419
+INFO 2026-03-27 12:06:10,753 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:06:11,812 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:06:23,560 log "GET /timetable_generation/ HTTP/1.1" 200 59368
+INFO 2026-03-27 12:07:50,324 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:08:00,065 log "GET /timetable_generation/ HTTP/1.1" 200 58066
+INFO 2026-03-27 12:11:18,671 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:11:19,391 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:11:20,603 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:11:21,057 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:11:22,369 log "GET /timetable_generation/ HTTP/1.1" 200 59352
+INFO 2026-03-27 12:12:40,258 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:12:41,135 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:12:42,312 autoreload /Users/adityanalkande/Desktop/Django/autotimetablegenerator/ttgen/views.py changed, reloading.
+INFO 2026-03-27 12:12:42,791 autoreload Watching for file changes with StatReloader
+INFO 2026-03-27 12:12:54,915 log "GET /timetable_generation/ HTTP/1.1" 200 58078
